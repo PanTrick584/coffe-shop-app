@@ -10,23 +10,32 @@ body{
     
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     font-size: 0.9rem;
     width: 100%;
-    height: 100px;
-    background-color: teal;
+    height: 400px;
+    background-image: url(img/coffee-bean-up-head.jpg);
+    margin: 0;
 }
 
 /* Head Logo */
 .logoHeadMenu{
     align-items: center;
-    margin-right: auto;
-    margin-left: 50px;
+    margin: 50px auto 0 150px;
     cursor: pointer;
+    font-size: 5rem;
+    width: 300px;
+    background-color: white;
+    transition: 0.1;
+    padding: 20px 0 0 20px;
+
 }
 
 .logoHeadMenu i{
+    padding-top: 20px;
     font-style: normal;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    color: #dfbf9f;
 }
 
 /* Head ul */
@@ -35,33 +44,54 @@ body{
     display: flex;   
     align-items: center;
     list-style-type: none;
-    margin-right: 50px;
+    margin: 50px 100px 0 0;
+    
 }
 
 .ulHeadMenu li {
-    padding-right: 20px;
+    margin-right: 20px;
+    width: 80px;
+    height: 55px;
+    background-color: white;
+    opacity: 0.5;
 }
 
+.ulHeadMenu li:hover{
+    background-color: #dfbf9f;
+    color: black;
+    opacity: 1;
+}
+
+
 .ulHeadMenu li i{
+    display: flex;
+    justify-content: center; 
+    padding-top: 20px;
     text-decoration: none;
     cursor: pointer;
     font-style: normal;
 }
 
+
 /* Head button */
 
 .buttonHeadMenu{
     align-items: center;
-    margin-right: 50px;
+    margin: 50px 150px 0 0;
     justify-content: space-between;
 }
 
 .buttonCartHeadMenu {
-    background-color: teal;
-    width: 50px;
-    height: 40px;
+    background-color: white;
+    width: 80px;
+    height: 55px;
+    margin-right: 20px;
     border: none;
     cursor: pointer;
+}
+
+.buttonCartHeadMenu:hover{
+    background-color: #dfbf9f;
 }
 
 .buttonSignUpHeadMenu{
@@ -69,12 +99,17 @@ body{
     border: none;
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-weight: 550;
-    padding: 20px 5px 20px 5px;
+    font-weight: 500;
+    /* padding: 20px 5px 20px 5px; */
     cursor: pointer;
+    width: 80px;
+    height: 55px;
+
 }
 .buttonSignUpHeadMenu:hover{
-    background-color: gray;
+    background-color: #dfbf9f;
+    color:black;
+    font-weight: 600;
     
 }
 
@@ -85,11 +120,14 @@ body{
     display: flex;
     justify-content: stretch;
     align-items: center;
-    background-color: tomato;
+    /* background-color: tomato; */
     width: 100%;
     height: 400px;
-    padding: 0 50px;
+    padding: 0;
+    margin:0;
 }
+
+/* Main section1 */
 
 .section1Main{
     display: block;
@@ -97,7 +135,7 @@ body{
     justify-content: center;
     width: 50%;
     font-size: 1.8rem;
-    padding: 50px 50px 50px 0;
+    padding: 50px 50px 0 150px;
 }
 
 .section1Main p{
@@ -106,16 +144,86 @@ body{
 }
 
 .section1ButtonMain {
-    color: white;
     background-color: black;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
     font-weight: 500;
+    padding: 20px 5px 20px 5px;
+    cursor: pointer;
+    width: 80px;
+    height: 55px;
 }
+
+.section1ButtonMain:hover{
+    background-color: #dfbf9f;
+    color: black;
+    font-weight: 600;
+}
+
+/* Main section2 */
 
 .section2Main{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
+    margin-right: 150px;
+}
+.section2PhotoMain{
+    background-image: url(img/coffee-cup-section2.jpg);
+    background-size: auto 400px;    
+    width: 100%;
+    height: 400px;
+}
+/* Main section3 */
+
+.section3Main{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/coffe-bean-bot-footer.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 1000px;
+}
+
+.section3HeaderMain{
+    padding: 150px 150px 50px 150px;
+    width: 50%;
+}
+
+.section3HeaderMain h1{
+font-size: 5rem;
+}
+
+.section3HeaderMain p{
+
+}
+
+
+/* FOOTER */
+
+.footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 150px
+
+    
+
+}
+
+.menuFooter {
+    
+
+}
+
+.menuFooter li{
+    list-style-type: none;
+
 }
 
 
