@@ -25,17 +25,16 @@ body{
     font-size: 5rem;
     width: 300px;
     background-color: white;
-    transition: 0.1;
-    padding: 20px 0 0 20px;
+    opacity: 0.5;
+    color:black;
+    padding: 20px 0 0 45px;
 
 }
 
 .logoHeadMenu i{
-    padding-top: 20px;
     font-style: normal;
     font-family: 'Crimson Text', serif;
-    font-style: italic;
-    color: #dfbf9f;
+    font-style: italic;    
 }
 
 /* Head ul */
@@ -207,23 +206,30 @@ font-size: 5rem;
 /* FOOTER */
 
 .footer{
+    display: flex;
+    justify-content: center;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 150px
-
-    
-
 }
 
 .menuFooter {
+    font-size: 2rem;
+
+}
+
+.menuFooter ul{
+    display:flex;
+    list-style-type: none;
+
     
 
 }
 
-.menuFooter li{
-    list-style-type: none;
-
+.menuFooter ul li{
+    margin: 20px;
+   cursor: pointer;
 }
 
 
